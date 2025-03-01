@@ -1,23 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
 import Discount from '../components/Discount'
-import Swiper from '../components/Swiper';
-import { useRef, useState } from 'react';
 import Colors from '../components/Colors';
-import Details from '../components/Detailsfunct';
 import AlikeProducts from '../components/AlikeProducts';
 import Subscribe from '../components/Subscribe';
 import Footer from '../components/Footer';
 import Detailsfunct from '../components/Detailsfunct';
-import Main from './Main';
 import { useNavigate } from 'react-router-dom';
-import Reviewsfunct from '../components/Reviewsfunct';
 import Counter from './Counter'
-import { Button } from '@headlessui/react';
-import BasicRating from '../components/Rating';
-import ProductSwiper from '../components/ProductSwiper';
-
-
 
 
 

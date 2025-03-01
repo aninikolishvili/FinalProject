@@ -8,13 +8,9 @@ import Details from '../components/Detailsfunct';
 import AlikeProducts from '../components/AlikeProducts';
 import Subscribe from '../components/Subscribe';
 import Footer from '../components/Footer';
-import Detailsfunct from '../components/Detailsfunct';
-import Main from './Main';
 import { useNavigate } from 'react-router-dom';
 import Reviewsfunct from '../components/Reviewsfunct';
 import Counter from './Counter'
-import BasicRating from '../components/Rating';
-
 
 const ProductsReviews = () => {
     const navigate = useNavigate();

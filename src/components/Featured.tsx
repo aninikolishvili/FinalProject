@@ -48,7 +48,7 @@ const Featured = () => {
                   <button className="text-[#0E1422]   w-[89px] h-[28px] text-[12px] rounded-[100px] border-solid border-[#E6E7E8] border-2">
                     {product.rating.count === 0 ? "Stock Out" : "IN STOCK"}
                   </button>
-                  <p className="text-[#474B57] text-[14px] mt-[12px]">{product.price}</p>
+                  <p className="text-[#474B57] text-[14px] mt-[12px]  font-bold">${product.price}</p>
                 </div>
               </a>
             ))}

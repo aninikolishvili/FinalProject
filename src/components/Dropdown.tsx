@@ -1,6 +1,7 @@
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 
 const Dropdown = () => {
@@ -26,6 +27,10 @@ const Dropdown = () => {
 
         //@ts-ignore
     }, []);
+
+
+    console.log(products);
+    
     return (
         <div >
             <Menu>
@@ -39,9 +44,10 @@ const Dropdown = () => {
                 >
                     {products.map((item, key) => (
                         <MenuItem key={key}>
-                            <link className="group flex items-center gap-2 rounded-lg py-1.5 px-3 ">
+
+                            <Link to={`/listing/${item}`} className="group flex items-center gap-2 rounded-lg py-1.5 px-3 ">
                                 {item}
-                            </link>
+                            </Link>
                         </MenuItem>
                     ))}
 

@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="flex items-center justify-between  py-3  max-w-[1116px] m-auto">
             <div className="flex items-center gap-[12px] font-semibold  text-Neutral-black text-[20px]">
-                <img src="images/Logomark.svg" />
+                <img src="/images/Logomark.svg" />
                 <h2>Eccomerce</h2>
             </div>
 

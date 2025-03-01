@@ -24,6 +24,7 @@ module.exports = {
         'semantic-blue': '#A3BEF8',
         'semantic-yellow': '#FFD58A',
         'semantic-green': '#83B18B',
+        'lightborder': '#E6E7E8',
       },
      
     },

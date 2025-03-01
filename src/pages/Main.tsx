@@ -8,10 +8,7 @@ import StartBrowsing from '../components/StartBrowsing';
 import Featured from '../components/Featured';
 import Subscribe from '../components/Subscribe';
 import Footer from '../components/Footer';
-import ProductSwiper from '../components/ProductSwiper';
-import { Routes, Route } from 'react-router-dom';
-import { store } from '../store/store';
-import { Provider } from 'react-redux'
+
 
 
 function Main() {

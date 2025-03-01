@@ -1,13 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import Main from './pages/Main'
 import { Routes, Route } from 'react-router-dom';
-import ProductDetails from './pages/ProductsDetails';
 import ProductsDetails from './pages/ProductsDetails';
 import ProductsReviews from './pages/ProductsReviews';
-import Reviewsfunct from './components/Reviewsfunct';
-// import Counter from './store/app/Counter';
 import { store } from './store/store'
 import { Provider } from 'react-redux'
 import Counter from './pages/Counter'
@@ -19,7 +15,6 @@ import Profile_Menu from './pages/Profile_Menu';
 import Orders from './pages/Orders';
 import Wishlist from './pages/Wishlist';
 import ShippingAddress from './pages/ShippingAddress';
-import AccountDetails from './pages/AccountDetails';
 import ChangePassword from './pages/ChangePassword';
 import EmptyState from './pages/EmptyState';
 import Admin_Menu from './pages/Admin_Menu';
@@ -32,6 +27,8 @@ import CostumersReviews from './pages/CustomersReviews';
 import Settings from './pages/Settings';
 import ProductSwiper from './components/ProductSwiper';
 import LogIn from './pages/LogIn';
+import GetCartFunct from './pages/GetCartFunct';
+import Listing from './pages/Listing';
 
 
 
@@ -65,6 +62,8 @@ function App() {
           <Route path="/CostumersReviews" element={<CostumersReviews/>}/>
           <Route path="/Settings" element={<Settings/>}/>
           <Route path="/Login" element={<LogIn/>}/>
+          <Route path="/getCartFunct" element={<GetCartFunct/>}/>
+          <Route path="/listing/:category_id" element={<Listing/>}/>
           
         </Routes>
       </div >
